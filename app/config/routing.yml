@@ -6,3 +6,8 @@
 _imagine:
     resource: .
     type:     imagine
+	
+m038KunstkamerBundle:
+    resource: "@m038KunstkamerBundle/Controller/"
+    type:     annotation
+    prefix:   /
