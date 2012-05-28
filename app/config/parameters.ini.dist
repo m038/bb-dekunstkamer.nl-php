@@ -4,13 +4,13 @@
 [parameters]
     database_driver   =
     database_host     =
-    database_port     =
     database_name     =
     database_user     =
     database_password =
+	database_charset  =
 
     mailer_transport  =
-    mailer_host       = 
+    mailer_host       =
     mailer_user       =
     mailer_password   =
 
