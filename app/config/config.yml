@@ -71,3 +71,9 @@ propel:
     # to manage your dependencies
     path:       "%kernel.root_dir%/../vendor/propel"
     phing_path: "%kernel.root_dir%/../vendor/phing"
+
+    build_properties:
+        propel.mysql.tableType:     InnoDB
+
+        propel.addValidators:       all
+        propel.addTimeStamp:        false
