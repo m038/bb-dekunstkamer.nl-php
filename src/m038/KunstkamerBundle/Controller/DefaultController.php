@@ -9,11 +9,20 @@ use Sensio\Bundle\FrameworkExtraBundle\Configuration\Template;
 class DefaultController extends Controller
 {
     /**
-     * @Route("/hello/{name}")
+     * @Route("/")
      * @Template()
      */
-    public function indexAction($name)
+    public function indexAction()
     {
-        return array('name' => $name);
+        return array('name' => 'Jan');
+    }
+
+	/**
+     * @Route("/design_backend")
+     * @Template("m038KunstkamerBundle:Backend:base.html.twig")
+     */
+    public function backendAction()
+    {
+        return array('name' => 'Jan');
     }
 }
